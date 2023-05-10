@@ -4,6 +4,8 @@ import { BsChevronDoubleDown, BsFillPersonFill, BsGithub, BsLinkedin, BsTwitter 
 import { init } from 'ityped'
 import { GrMail } from 'react-icons/gr'
 import { AiFillInstagram } from 'react-icons/ai'
+
+
 const Intro = () => {
 
   const textRef = useRef()
@@ -16,7 +18,7 @@ const Intro = () => {
       <div className="mainContainer">
 
         <div className="imgContainer">
-          <img src="src\assets\prashant.png" alt="Prashant" />
+          <img src="./src/assets/prashant.png" alt="Prashant" />
         </div>
 
         <div className="details">
