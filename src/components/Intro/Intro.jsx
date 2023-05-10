@@ -5,6 +5,10 @@ import { init } from 'ityped'
 import { GrMail } from 'react-icons/gr'
 import { AiFillInstagram } from 'react-icons/ai'
 import prashant from '../../assets/prashant.png'
+<<<<<<< HEAD
+=======
+
+>>>>>>> 233d4fbd40d5265977b93b3c9fa1d285b01b8f30
 
 const Intro = () => {
 
