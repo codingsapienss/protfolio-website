@@ -14,9 +14,11 @@ const Contact = () => {
     emailjs.sendForm('service_chcz8ov', 'template_ql4c3rr', form.current, 'nqUMiI5ovBHelmM8l')
       .then((result) => {
         console.log(result.text);
+      
       }, (error) => {
         console.log(error.text);
       });      
+      form.current.reset();
   };
 
 
