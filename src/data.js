@@ -4,7 +4,7 @@ export const featuredProjects = [
         id: 1 ,
         title : "Crypto Pilot",
         desc : `This is a cryptocurrency project where you can get all the latest information in detail about all famous cryptocurrencies. You can read and search most recent news related to almost all important cryptocurrencies. I have used react-chartjs-2 so you can also see the price history of all important cryptocurrencies visually with the help of line chart for a variety of timelines. In this project I have used React Redux Toolkit for state management and React Query for fetching the data from 2 APIs.` ,
-        img: './src/assets/project-images/react/crypto-pilot.JPG' ,
+        img: 'src/assets/project-images/react/crypto-pilot.JPG' ,
         link : 'https://imprsant-cryptopilot.netlify.app/'
     },
 

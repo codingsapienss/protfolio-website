@@ -29,7 +29,7 @@
             width: 60vw
           }
         img{
-            max-width: 95%;
+            max-width: 75%;
             opacity: 1;
             border-radius: 50%;
             border: 1px solid rgb(1, 1, 71);
@@ -115,7 +115,8 @@
                 display: flex ;
                 justify-content: center;
                 align-items: center;
-                font-size: 1.3rem;
+                font-size: 1rem;
+                // font-weight: 600;
             }
         }
 
