@@ -68,6 +68,16 @@
         justify-content: center;
         align-items: center;
         font-size: 1rem;
+
+        .itemContainer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .icon{
+                margin:0 .3rem;
+            }
+        }
     }
     p{
         font-size: 2rem;

@@ -67,7 +67,7 @@ const Contact = () => {
       <div className="contact">
               <div className="itemContainer">
                 <BsFillPersonFill className='icon' />
-                <span> Contact :  09838890179</span>
+                <span>   Contact :  09838890179</span>
               </div>
               <div className="itemContainer">
                 <GrMail className='icon' />
