@@ -12,10 +12,15 @@ li{
     text-align: center;
     cursor: pointer;
 
+
     &.active{
         background-color: $mainColor;
         color: white;
         border-radius: .7rem;
         padding: 7px;
     }
+    
+    @include mobile  {
+       font-size: 1rem;
+      }
 }
