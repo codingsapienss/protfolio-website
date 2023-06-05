@@ -10,7 +10,7 @@ const Intro = () => {
   const textRef = useRef()
 
   useEffect(() => {
-    init(textRef.current, { showCursor: true, backDelay: 2000, strings: ['Front-end Developer', 'React Developer', 'Writer'] })
+    init(textRef.current, { showCursor: true, backDelay: 2000, strings: ['Front-end Developer', 'Javascript + React Developer', 'Writer'] })
   }, [])
   return (
     <div id='intro' className='intro'>
