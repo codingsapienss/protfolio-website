@@ -14,11 +14,11 @@ const Contact = () => {
     emailjs.sendForm('service_chcz8ov', 'template_ql4c3rr', form.current, 'nqUMiI5ovBHelmM8l')
       .then((result) => {
         console.log(result.text);
-      
+
       }, (error) => {
         console.log(error.text);
-      });      
-      form.current.reset();
+      });
+    form.current.reset();
   };
 
 
@@ -63,18 +63,18 @@ const Contact = () => {
           </div> */}
       </div>
 
-      
-      <div className="contact">
-              <div className="itemContainer">
-                <BsFillPersonFill className='icon' />
-                <span>   Contact :  09838890179</span>
-              </div>
-              <div className="itemContainer">
-                <GrMail className='icon' />
-                <span> Email : contactprsant@gmail.com</span>
-              </div>
 
-            </div>
+      <div className="contact">
+        <div className="itemContainer">
+          <BsFillPersonFill className='icon' />
+          <span> <a href="tel:09838890179">09838890179</a></span>
+        </div>
+        <div className="itemContainer">
+          <GrMail className='icon' />
+          <span> <a href="mailto:contactprsant@gmail.com">contactprsant@gmail.com</a></span>
+        </div>
+
+      </div>
       <p>- Made with 💖 by Prashant Sharma</p>
     </div>
   )

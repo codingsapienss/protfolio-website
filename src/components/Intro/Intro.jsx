@@ -56,11 +56,11 @@ const Intro = () => {
             <div className="contact">
               <div className="itemContainer">
                 <BsFillPersonFill className='icon' />
-                <span> Contact :  09838890179</span>
+                <span><a href="tel:09838890179">09838890179</a></span>
               </div>
               <div className="itemContainer">
                 <GrMail className='icon' />
-                <span> Email : contactprsant@gmail.com</span>
+                <span> <a href="mailto:contactprsant@gmail.com">contactprsant@gmail.com</a></span>
               </div>
 
             </div>
@@ -71,7 +71,7 @@ const Intro = () => {
           </a>
         </div>
       </div>
-    </div>
+    </div >
   )
 }
 

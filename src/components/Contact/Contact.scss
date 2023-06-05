@@ -1,94 +1,96 @@
-@import '../../global.scss';
+@import "../../global.scss";
 
-.contact{
-    background-color: transparent;
-    margin-top: 3rem;
+.contact {
+  background-color: transparent;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  .form {
+    box-sizing: border-box;
+    width: 700px;
+    max-width: 94vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content:space-between;
-
-    .form{
-        box-sizing: border-box;
-        width: 700px;
-        max-width: 94vw ;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        border: 1px solid black;
-        border-radius: .4rem;
-        box-shadow: 2px 2px 5px black;
-        padding : 1rem;
-        font-size: 2rem;
-        font-weight:lighter;
-        h1{
-            font-size: 1.8rem;
-            text-align: center;
-            text-decoration: underline;
-            color: $mainColor;
-        }
-        input, textarea{
-            font-size: 1.2rem;
-            padding: .4rem .7rem;
-            margin: 1rem .4rem;
-            border-radius: .4rem;
-        }
-
-        input[type=submit]{
-            cursor: pointer;
-            font-size: 1.5rem;
-            background-color:$mainColor;
-            color: #ffffff;
-            &:hover{
-                box-shadow: 5px 5px 10px black;
-            }
-        }
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 0.4rem;
+    box-shadow: 2px 2px 5px black;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: lighter;
+    h1 {
+      font-size: 1.8rem;
+      text-align: center;
+      text-decoration: underline;
+      color: $mainColor;
+    }
+    input,
+    textarea {
+      font-size: 1.2rem;
+      padding: 0.4rem 0.7rem;
+      margin: 1rem 0.4rem;
+      border-radius: 0.4rem;
     }
 
-    .social{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100vw;
-        font-size: 3rem;
-
-        .icon {
-            color:$mainColor;
-            margin: 1rem;
-            margin-top: 4rem;
-
-            &:hover{
-                opacity: .5;
-            }
-        }
-    }
-
-    .contact{
-        display: flex ;
-        justify-content: center;
-        align-items: center;
-        font-size: 1rem;
-
-        .itemContainer{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            .icon{
-                margin:0 .3rem;
-            }
-        }
-    }
-    p{
-        font-size: 2rem;
-        color: $mainColor;
-        padding: 2rem;
-
-        
-    @include mobile  {
-       font-size: .9rem;
-       margin-bottom: 4rem;
+    input[type="submit"] {
+      cursor: pointer;
+      font-size: 1.5rem;
+      background-color: $mainColor;
+      color: #ffffff;
+      &:hover {
+        box-shadow: 5px 5px 10px black;
       }
     }
-   
+  }
+
+  .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    font-size: 3rem;
+
+    .icon {
+      color: $mainColor;
+      margin: 1rem;
+      margin-top: 4rem;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+
+    .itemContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      a {
+        text-decoration: none;
+      }
+
+      .icon {
+        margin: 0 0.3rem;
+      }
+    }
+  }
+  p {
+    font-size: 2rem;
+    color: $mainColor;
+    padding: 2rem;
+
+    @include mobile {
+      font-size: 0.9rem;
+      margin-bottom: 4rem;
+    }
+  }
 }
