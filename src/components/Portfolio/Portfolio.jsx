@@ -9,14 +9,14 @@ const Portfolio = () => {
   const [selected, setSelected] = useState("featuredProject");
 
   const list = [
-    { id: "featuredProject", title: "Featured Projects" },
-    { id: "react", title: "React Projects" },
-    { id: "javascript", title: "Javascript Projects" },
+    { id: "featuredProject", title: "Featured" },
+    { id: "react", title: "React" },
+    { id: "javascript", title: "Javascript " },
   ];
 
   return (<>
     <div id="portfolio" className="portfolio">
-      <h1>Portfolio</h1>
+      <h1>Projects</h1>
       <ul>
         {list.map((item) => {
           return (
