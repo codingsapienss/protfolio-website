@@ -1,29 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Shantell+Sans:wght@300&display=swap');
-@import './global.scss' ;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Shantell+Sans:wght@300&display=swap");
+@import "./global.scss";
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
-  color: $mainColor ;
-
+  color: $mainColor;
+  background-color: $bgColor;
 }
 
-.app{
+.app {
   height: 100vh;
-  .section{
+  .section {
     width: 100%;
-    height : calc(100vh - 70px);
+    height: calc(100vh - 70px);
     position: relative;
     top: 70px;
-    scroll-behavior:smooth ;
-    scroll-snap-type: y mandatory ;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-    &::-webkit-scrollbar{ /* Chroome */
-        display: none;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+      /* Chroome */
+      display: none;
     }
 
     > * {
@@ -33,4 +34,3 @@
     }
   }
 }
-

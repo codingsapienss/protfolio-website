@@ -21,15 +21,18 @@
     font-size: 1rem;
     font-weight: bolder;
     border: 1px solid $mainColor;
-    box-shadow: 4px 4px;
+    box-shadow: 2px 2px;
     padding: 0.4rem;
     border-radius: 0.2rem;
 
     &:hover {
       position: relative;
-      top: 4px;
-      left: 4px;
+      top: 2px;
+      left: 2px;
       box-shadow: 0 0;
+
+      background-color: $mainColor;
+      color: $bgColor;
     }
   }
 

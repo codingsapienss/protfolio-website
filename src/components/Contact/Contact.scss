@@ -15,9 +15,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid $mainColor;
     border-radius: 0.4rem;
-    box-shadow: 2px 2px 5px black;
     padding: 1rem;
     font-size: 2rem;
     font-weight: lighter;
@@ -38,10 +37,13 @@
     input[type="submit"] {
       cursor: pointer;
       font-size: 1.5rem;
-      background-color: $mainColor;
-      color: #ffffff;
+      // background-color: $mainColor;
+      color: $mainColor;
+      border: 1px solid $mainColor;
+      font-weight: bolder;
       &:hover {
-        box-shadow: 5px 5px 10px black;
+        background-color: $mainColor;
+        color: $bgColor;
       }
     }
   }
