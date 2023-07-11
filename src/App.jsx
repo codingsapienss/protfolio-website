@@ -12,7 +12,8 @@ const App = () => {
         <Intro />
         <div className="other">
           <Portfolio />
-          <Contact className ='contact' />
+
+          <Contact className='contact' />
         </div>
       </div>
     </div>
