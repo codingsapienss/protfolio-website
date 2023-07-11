@@ -18,17 +18,19 @@
     }
 
     .imgContainer {
-      width: 50vw;
+      width: 35vw;
       display: flex;
       align-items: flex-start;
       justify-content: center;
       float: right;
 
       @include mobile {
-        width: 47vw;
+        width: 70vw;
+        position: absolute;
+        bottom: 44vh;
       }
       img {
-        max-width: 70%;
+        // max-width: 70%;
         opacity: 1;
         border-radius: 50%;
         border: 3px solid lightblue;
@@ -55,6 +57,8 @@
         margin: 10px 0;
         @include mobile {
           font-size: 20px;
+          position: absolute;
+          bottom: 33vh;
         }
       }
 
@@ -62,13 +66,33 @@
         font-size: 35px;
         @include mobile {
           font-size: 15px;
+          position: absolute;
+          bottom: 40vh;
         }
       }
+      // .techStack {
+      //   display: flex;
+      //   align-items: center;
+      //   border: 1px solid $mainColor;
+      //   span {
+      //     font-size: 2rem;
+      //     @include mobile {
+      //       font-size: 18px;
+      //     }
+      //     .logo {
+      //       margin: auto 0.6rem;
+      //       font-size: 2rem;
+      //     }
+      //   }
+      // }
+
       h3 {
         font-size: 30px;
         font-weight: 700;
         @include mobile {
           font-size: 18px;
+          position: absolute;
+          bottom: 30vh;
         }
 
         span {
@@ -103,12 +127,16 @@
           display: flex;
           align-items: center;
           justify-content: center;
+          @include mobile {
+            position: absolute;
+            bottom: 20vh;
+          }
           .icon {
             margin: 0.2rem 0.3rem;
             margin-top: 2rem;
             font-size: 1.2rem;
             &:hover {
-              opacity: 0.5;
+              opacity: 0.3;
             }
           }
         }
@@ -118,10 +146,12 @@
           flex-direction: row;
           justify-content: center;
           align-items: center;
-          font-size: 0.8rem;
+          font-size: 1.3rem;
           @include mobile {
             flex-direction: column;
-            font-size: 0.8rem;
+            font-size: 1.1rem;
+            position: absolute;
+            bottom: 12vh;
           }
 
           // font-weight: 600;

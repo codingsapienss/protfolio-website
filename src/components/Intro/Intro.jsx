@@ -1,9 +1,15 @@
 import { useEffect, useRef } from 'react'
 import './Intro.scss'
-import { BsChevronDoubleDown, BsFillPersonFill, BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs'
+import { BsBootstrapFill, BsChevronDoubleDown, BsFillPersonFill, BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs'
 import { init } from 'ityped'
 import { GrMail } from 'react-icons/gr'
 import { AiFillInstagram } from 'react-icons/ai'
+import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoRedux } from 'react-icons/bi';
+import { FaSass } from 'react-icons/fa';
+import { SiMui } from 'react-icons/si';
+
+
+
 
 const Intro = () => {
 
@@ -23,7 +29,10 @@ const Intro = () => {
         <div className="details">
           <h2>Hii There, I am </h2>
           <h1>Prashant Sharma </h1>
+
+
           <h3> - <span ref={textRef}></span> </h3>
+
           <div className="contactDetails">
             <div className="social">
 
@@ -65,6 +74,23 @@ const Intro = () => {
 
             </div>
           </div>
+
+          {/* <div className="techStack">
+            <span> Tech Stack : </span>
+
+            <span className='logoContainer'>
+              <BiLogoHtml5 className='logo' />
+              <BiLogoCss3 className='logo' />
+              <FaSass className='logo' />
+              <BsBootstrapFill className='logo' />
+              <BiLogoJavascript className='logo' />
+              <BiLogoReact className='logo' />
+              <SiMui className='logo' />
+              <BiLogoRedux className='logo' />
+
+            </span>
+
+          </div> */}
 
           <a className='next' href="#portfolio">
             <BsChevronDoubleDown />
