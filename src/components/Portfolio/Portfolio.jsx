@@ -5,6 +5,7 @@ import { reactProjects } from "../../data.js";
 import { javascriptProject } from "../../data.js";
 import { featuredProjects } from "../../data.js";
 
+
 const Portfolio = () => {
   const [selected, setSelected] = useState("featuredProject");
 
@@ -13,6 +14,8 @@ const Portfolio = () => {
     { id: "react", title: "React" },
     { id: "javascript", title: "Javascript " },
   ];
+
+
 
   return (<>
     <div id="portfolio" className="portfolio">

@@ -119,12 +119,19 @@
 
       .disc {
         width: 50%;
+        @include mobile {
+          width: 100%;
+          margin: auto;
+        }
 
         h2 {
           text-align: center;
           width: 100%;
           font-size: 1.5rem;
           text-decoration: underline;
+          @include mobile {
+            font-size: 0.6rem;
+          }
         }
         p {
           // text-align: center;
@@ -136,6 +143,8 @@
         }
         .btn {
           text-align: center;
+          justify-content: center;
+          width: 100%;
           @include mobile {
             display: flex;
           }
@@ -149,7 +158,7 @@
             padding: 0.5rem;
             margin: 0.5rem;
             @include mobile {
-              font-size: 1rem;
+              font-size: 0.6rem;
             }
             &:hover {
               background-color: $bgColor;
