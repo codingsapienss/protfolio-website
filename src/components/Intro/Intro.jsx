@@ -1,12 +1,12 @@
 import { useEffect, useRef } from 'react'
 import './Intro.scss'
-import { BsBootstrapFill, BsChevronDoubleDown, BsFillPersonFill, BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs'
+import { BsChevronDoubleDown, BsFillPersonFill, BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs'
 import { init } from 'ityped'
 import { GrMail } from 'react-icons/gr'
 import { AiFillInstagram } from 'react-icons/ai'
-import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoRedux } from 'react-icons/bi';
-import { FaSass } from 'react-icons/fa';
-import { SiMui } from 'react-icons/si';
+// import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoRedux } from 'react-icons/bi';
+// import { FaSass } from 'react-icons/fa';
+// import { SiMui } from 'react-icons/si';
 
 
 
