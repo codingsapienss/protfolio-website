@@ -63,7 +63,7 @@ export const featuredProjects = [
         title: "Tic Tak Toe Game",
         desc: 'This is a simple tic tak toe game made in pure javascript. I hope you will love it.',
         img: '/project-images/javascript/tic tak toe.JPG',
-        link: 'https://imprsant.github.io/Tic-tak-toe/',
+        link: 'https://codingsapienss.github.io/Tic-tak-toe/',
         github: 'https://github.com/codingsapienss/Tic-tak-toe'
     },
 ]
