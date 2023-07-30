@@ -161,7 +161,7 @@ export const javascriptProject = [
         title: "Quiz App",
         desc: 'This is a very simple pagination project made in react.',
         img: '/project-images/javascript/quiz-javascript.JPG',
-        link: 'https://imprsant.github.io/quiz-app/',
+        link: 'https://codingsapienss.github.io/quiz-app/',
         github: 'https://github.com/codingsapienss/quiz-app'
     },
     {
@@ -170,7 +170,7 @@ export const javascriptProject = [
         desc: `This is a fully functional shopping cart project made with the help of vanilla javascript. You can select how many items you want to add to cart and on cart section you can check all your selected items with the price of each and total items. You can also delete/remove the items from cart option.
         I have used localstorage so even if you refresh the web page your selected items will still be there.`,
         img: '/project-images/javascript/shoppingCart-javascript.JPG',
-        link: 'https://imprsant.github.io/shopping-cart/',
+        link:'https://codingsapienss.github.io/shopping-cart/',
         github: 'https://github.com/codingsapienss/shopping-cart'
     },
     {
@@ -178,7 +178,7 @@ export const javascriptProject = [
         title: "Tic Tak Toe Game",
         desc: 'This is a simple tic tak toe game made in pure javascript. I hope you will love it.',
         img: '/project-images/javascript/tic tak toe.JPG',
-        link: 'https://imprsant.github.io/Tic-tak-toe/',
+        link: 'https://codingsapienss.github.io/Tic-tak-toe/',
         github: 'https://github.com/codingsapienss/Tic-tak-toe'
     },
     {
@@ -186,7 +186,7 @@ export const javascriptProject = [
         title: "Nested Comment",
         desc: `This is a very very basic project of infinite level nested comment.`,
         img: '/project-images/javascript/Nested-Comment.JPG',
-        link: 'https://imprsant.github.io/Nested-Comment-in-javascript/',
+        link: 'https://codingsapienss.github.io/Nested-Comment-in-javascript/',
         github: 'https://github.com/codingsapienss/Nested-Comment-in-javascript'
     },
     {
@@ -194,7 +194,7 @@ export const javascriptProject = [
         title: "Multi-step Form",
         desc: `This is a very basic and simple multi-step form where you can add your details in muliple steps.`,
         img: '/project-images/javascript/mult-step-form-javascript.JPG',
-        link: 'https://imprsant.github.io/Multi-step-form/',
+        link: 'https://codingsapienss.github.io/Multi-step-form/',
         github: 'https://github.com/codingsapienss/Multi-step-form'
     },
     {
@@ -202,7 +202,7 @@ export const javascriptProject = [
         title: "Stopwatch",
         desc: `Simple stopwatch project`,
         img: '/project-images/javascript/stopwatch-javascript.JPG',
-        link: 'https://imprsant.github.io/stopwatch/',
+        link: 'https://codingsapienss.github.io/stopwatch/',
         github: 'https://github.com/codingsapienss/stopwatch'
     },
     {
@@ -210,7 +210,7 @@ export const javascriptProject = [
         title: "Mosquito Hit Game",
         desc: `This is a simple javascript game based project where you can hit the mosquito appearing randomly at the screen. Let's see how many points you can make.`,
         img: '/project-images/javascript/mosquito-hit-javascript.JPG',
-        link: 'https://imprsant.github.io/Mosquito-Hit-Game/',
+        link: 'https://codingsapienss.github.io/Mosquito-Hit-Game/',
         github: 'https://github.com/codingsapienss/Mosquito-Hit-Game'
     },
     {
@@ -218,7 +218,7 @@ export const javascriptProject = [
         title: "Quote Generator",
         desc: `This is a simple DOM based project to generate a random quote.`,
         img: '/project-images/javascript/quoto-generator-javascript.JPG',
-        link: 'https://imprsant.github.io/Quote-generator/',
+        link: 'https://codingsapienss.github.io/Quote-generator/',
         github: 'https://github.com/codingsapienss/Quote-generator'
     },
     {
@@ -226,7 +226,7 @@ export const javascriptProject = [
         title: "Accordion",
         desc: `This is a simple and basic accordion project just to practice some DOM concepts.`,
         img: '/project-images/javascript/accordion-javascript.JPG',
-        link: 'https://imprsant.github.io/Accordion/',
+        link: 'https://codingsapienss.github.io/Accordion/',
         github: 'https://github.com/codingsapienss/Accordion'
     },
     {
@@ -234,7 +234,7 @@ export const javascriptProject = [
         title: "Grade Calculator",
         desc: `This is a simple Grade Calculator project based on the given marks`,
         img: '/project-images/javascript/grade-calculator-javascript.JPG',
-        link: 'https://imprsant.github.io/Grade-Calculator/',
+        link: 'https://codingsapienss.github.io/Grade-Calculator/',
         github: 'https://github.com/codingsapienss/Grade-Calculator'
     },
 
