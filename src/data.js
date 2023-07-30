@@ -7,7 +7,7 @@ export const featuredProjects = [
              You can read and search most recent news related to almost all important cryptocurrencies. `,
         img: '/project-images/react/crypto-pilot.JPG',
         link: 'https://cryptopilott.netlify.app/',
-        github: 'https://github.com/imprsant/crypto-pilot'
+        github: 'https://github.com/codingsapienss/crypto-pilot'
     },
 
     {
@@ -17,7 +17,7 @@ export const featuredProjects = [
          In this project you can fetch trending Movies, Movies list, TV series list and also you can search any movie or series.`,
         img: '/project-images/react/movies-master.JPG',
         link: 'https://moviesmaster.netlify.app/',
-        github: 'https://github.com/imprsant/movie-master'
+        github: 'https://github.com/codingsapienss/movie-master'
     },
 
     {
@@ -26,7 +26,7 @@ export const featuredProjects = [
         desc: `Quiz Master is a quiz project made with react with more that 20 categories and 3 difficulty levels (easy, medium and hard). Play this game and test your knowledge.`,
         img: '/project-images/react/quiz-app-react.png',
         link: 'https://quizmasterr.netlify.app/',
-        github: 'https://github.com/imprsant/quiz-master'
+        github: 'https://github.com/codingsapienss/quiz-master'
     },
 
     {
@@ -35,7 +35,7 @@ export const featuredProjects = [
         desc: `This is a simple dictionary project created with the help of react (vite). Here you can search any word and find the meaning, synonyms and antonyms of that word. You can also listen the correct pronounciation of that word if the audio file is available for that word.`,
         img: '/project-images/react/wordsweb-react.JPG',
         link: "https://wordsweb.netlify.app/",
-        github: 'https://github.com/imprsant/words-web'
+        github: 'https://github.com/codingsapienss/words-web'
     },
 
     {
@@ -45,7 +45,7 @@ export const featuredProjects = [
         I hope you will love it.` ,
         img: '/project-images/javascript/weather-javascript.JPG',
         link: 'https://weather31.netlify.app/',
-        github: 'https://github.com/imprsant/weather-app'
+        github: 'https://github.com/codingsapienss/weather-app'
     },
 
     {
@@ -55,7 +55,7 @@ export const featuredProjects = [
        `,
         img: '/project-images/javascript/shoppingCart-javascript.JPG',
         link: 'https://codingsapienss.github.io/shopping-cart/',
-        github: 'https://github.com/imprsant/shopping-cart'
+        github: 'https://github.com/codingsapienss/shopping-cart'
     },
 
     {
@@ -64,7 +64,7 @@ export const featuredProjects = [
         desc: 'This is a simple tic tak toe game made in pure javascript. I hope you will love it.',
         img: '/project-images/javascript/tic tak toe.JPG',
         link: 'https://imprsant.github.io/Tic-tak-toe/',
-        github: 'https://github.com/imprsant/Tic-tak-toe'
+        github: 'https://github.com/codingsapienss/Tic-tak-toe'
     },
 ]
 
@@ -76,7 +76,7 @@ export const reactProjects = [
         desc: `This is a cryptocurrency project where you can get all the latest information in detail about all famous cryptocurrencies. You can read and search most recent news related to almost all important cryptocurrencies. `,
         img: '/project-images/react/crypto-pilot.JPG',
         link: 'https://cryptopilott.netlify.app/',
-        github: 'https://github.com/imprsant/crypto-pilot'
+        github: 'https://github.com/codingsapienss/crypto-pilot'
     },
 
     {
@@ -86,7 +86,7 @@ export const reactProjects = [
          In this project you can fetch trending Movies, Movies list, TV series list and also you can search any movie or series.`,
         img: '/project-images/react/movies-master.JPG',
         link: 'https://moviesmaster.netlify.app/',
-        github: 'https://github.com/imprsant/movie-master'
+        github: 'https://github.com/codingsapienss/movie-master'
     },
 
     {
@@ -95,7 +95,7 @@ export const reactProjects = [
         desc: `Quiz Master is a quiz project made with react with more that 20 categories and 3 difficulty levels (easy, medium and hard). Play this game and test your knowledge. `,
         img: '/project-images/react/quiz-app-react.png',
         link: 'https://quizmasterr.netlify.app/',
-        github: 'https://github.com/imprsant/quiz-master'
+        github: 'https://github.com/codingsapienss/quiz-master'
     },
 
     {
@@ -105,7 +105,7 @@ export const reactProjects = [
          Here you can search any word and find the meaning, synonyms and antonyms of that word. You can also listen the correct pronounciation of that word if the audio file is available for that word.`,
         img: '/project-images/react/wordsweb-react.JPG',
         link: "https://wordsweb.netlify.app/",
-        github: 'https://github.com/imprsant/words-web'
+        github: 'https://github.com/codingsapienss/words-web'
     },
 
     {
@@ -114,7 +114,7 @@ export const reactProjects = [
         desc: `This is a simple react project created to learn form handeling and validation in react without using any library.`,
         img: '/project-images/react/form-validation-react.JPG',
         link: "https://reactformss.netlify.app/",
-        github: 'https://github.com/imprsant/react-form-validation'
+        github: 'https://github.com/codingsapienss/react-form-validation'
     },
 
     {
@@ -123,7 +123,7 @@ export const reactProjects = [
         desc: `This is a simple todo progressive web app made in react. `,
         img: '/project-images/react/react-todo.JPG',
         link: 'https://todoapp-v01.netlify.app/',
-        github: 'https://github.com/imprsant/todo-v1'
+        github: 'https://github.com/codingsapienss/todo-v1'
     },
 
     {
@@ -132,7 +132,7 @@ export const reactProjects = [
         desc: `This is a very simple and small project of auto-search in react made with the help of vite. In this project if you type any string in search-bar, a list of suggested keywords will automatically generated that contains the typed string.`,
         img: '/project-images/react/autosearch-react.JPG',
         link: 'https://react-autosearch.netlify.app/',
-        github: 'https://github.com/imprsant/react-search-bar'
+        github: 'https://github.com/codingsapienss/react-search-bar'
     },
 
     {
@@ -141,7 +141,7 @@ export const reactProjects = [
         desc: `This is a very basic project of pagination made in react. `,
         img: '/project-images/react/pagination.JPG',
         link: 'https://react-paginationn.netlify.app/',
-        github: 'https://github.com/imprsant/pagination-project'
+        github: 'https://github.com/codingsapienss/pagination-project'
     },
 ]
 
@@ -154,7 +154,7 @@ export const javascriptProject = [
         desc: `This is a simple weather app project created with the help of javascript, html and css. `,
         img: '/project-images/javascript/weather-javascript.JPG',
         link: 'https://weather31.netlify.app/',
-        github: 'https://github.com/imprsant/weather-app'
+        github: 'https://github.com/codingsapienss/weather-app'
     },
     {
         id: 2,
@@ -162,7 +162,7 @@ export const javascriptProject = [
         desc: 'This is a very simple pagination project made in react.',
         img: '/project-images/javascript/quiz-javascript.JPG',
         link: 'https://imprsant.github.io/quiz-app/',
-        github: 'https://github.com/imprsant/quiz-app'
+        github: 'https://github.com/codingsapienss/quiz-app'
     },
     {
         id: 3,
@@ -171,7 +171,7 @@ export const javascriptProject = [
         I have used localstorage so even if you refresh the web page your selected items will still be there.`,
         img: '/project-images/javascript/shoppingCart-javascript.JPG',
         link: 'https://imprsant.github.io/shopping-cart/',
-        github: 'https://github.com/imprsant/shopping-cart'
+        github: 'https://github.com/codingsapienss/shopping-cart'
     },
     {
         id: 4,
@@ -179,7 +179,7 @@ export const javascriptProject = [
         desc: 'This is a simple tic tak toe game made in pure javascript. I hope you will love it.',
         img: '/project-images/javascript/tic tak toe.JPG',
         link: 'https://imprsant.github.io/Tic-tak-toe/',
-        github: 'https://github.com/imprsant/Tic-tak-toe'
+        github: 'https://github.com/codingsapienss/Tic-tak-toe'
     },
     {
         id: 5,
@@ -187,7 +187,7 @@ export const javascriptProject = [
         desc: `This is a very very basic project of infinite level nested comment.`,
         img: '/project-images/javascript/Nested-Comment.JPG',
         link: 'https://imprsant.github.io/Nested-Comment-in-javascript/',
-        github: 'https://github.com/imprsant/Nested-Comment-in-javascript'
+        github: 'https://github.com/codingsapienss/Nested-Comment-in-javascript'
     },
     {
         id: 6,
@@ -195,7 +195,7 @@ export const javascriptProject = [
         desc: `This is a very basic and simple multi-step form where you can add your details in muliple steps.`,
         img: '/project-images/javascript/mult-step-form-javascript.JPG',
         link: 'https://imprsant.github.io/Multi-step-form/',
-        github: 'https://github.com/imprsant/Multi-step-form'
+        github: 'https://github.com/codingsapienss/Multi-step-form'
     },
     {
         id: 7,
@@ -203,7 +203,7 @@ export const javascriptProject = [
         desc: `Simple stopwatch project`,
         img: '/project-images/javascript/stopwatch-javascript.JPG',
         link: 'https://imprsant.github.io/stopwatch/',
-        github: 'https://github.com/imprsant/stopwatch'
+        github: 'https://github.com/codingsapienss/stopwatch'
     },
     {
         id: 8,
@@ -211,14 +211,15 @@ export const javascriptProject = [
         desc: `This is a simple javascript game based project where you can hit the mosquito appearing randomly at the screen. Let's see how many points you can make.`,
         img: '/project-images/javascript/mosquito-hit-javascript.JPG',
         link: 'https://imprsant.github.io/Mosquito-Hit-Game/',
-        github: 'https://github.com/imprsant/Mosquito-Hit-Game'
+        github: 'https://github.com/codingsapienss/Mosquito-Hit-Game'
     },
     {
         id: 9,
         title: "Quote Generator",
         desc: `This is a simple DOM based project to generate a random quote.`,
         img: '/project-images/javascript/quoto-generator-javascript.JPG',
-        link: 'https://imprsant.github.io/Quote-generator/'
+        link: 'https://imprsant.github.io/Quote-generator/',
+        github: 'https://github.com/codingsapienss/Quote-generator'
     },
     {
         id: 10,
@@ -226,7 +227,7 @@ export const javascriptProject = [
         desc: `This is a simple and basic accordion project just to practice some DOM concepts.`,
         img: '/project-images/javascript/accordion-javascript.JPG',
         link: 'https://imprsant.github.io/Accordion/',
-        github: 'https://github.com/imprsant/Accordion'
+        github: 'https://github.com/codingsapienss/Accordion'
     },
     {
         id: 11,
@@ -234,7 +235,7 @@ export const javascriptProject = [
         desc: `This is a simple Grade Calculator project based on the given marks`,
         img: '/project-images/javascript/grade-calculator-javascript.JPG',
         link: 'https://imprsant.github.io/Grade-Calculator/',
-        github: 'https://github.com/imprsant/Grade-Calculator'
+        github: 'https://github.com/codingsapienss/Grade-Calculator'
     },
 
 ]
