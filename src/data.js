@@ -6,7 +6,7 @@ export const featuredProjects = [
         desc: `This is a cryptocurrency project where you can get all the latest information in detail about all famous cryptocurrencies.
              You can read and search most recent news related to almost all important cryptocurrencies. `,
         img: '/project-images/react/crypto-pilot.JPG',
-        link: 'https://imprsant-cryptopilot.netlify.app/',
+        link: 'https://cryptopilott.netlify.app/',
         github: 'https://github.com/imprsant/crypto-pilot'
     },
 
@@ -25,7 +25,7 @@ export const featuredProjects = [
         title: "Quiz App",
         desc: `Quiz Master is a quiz project made with react with more that 20 categories and 3 difficulty levels (easy, medium and hard). Play this game and test your knowledge.`,
         img: '/project-images/react/quiz-app-react.png',
-        link: 'https://imprsant-quizmaster.netlify.app/',
+        link: 'https://quizmasterr.netlify.app/',
         github: 'https://github.com/imprsant/quiz-master'
     },
 
@@ -34,7 +34,7 @@ export const featuredProjects = [
         title: "Words Web",
         desc: `This is a simple dictionary project created with the help of react (vite). Here you can search any word and find the meaning, synonyms and antonyms of that word. You can also listen the correct pronounciation of that word if the audio file is available for that word.`,
         img: '/project-images/react/wordsweb-react.JPG',
-        link: "https://imprsant-words-web.netlify.app/",
+        link: "https://wordsweb.netlify.app/",
         github: 'https://github.com/imprsant/words-web'
     },
 
@@ -44,7 +44,7 @@ export const featuredProjects = [
         desc: `This is a simple weather app project created with the help of javascript, html and css.
         I hope you will love it.` ,
         img: '/project-images/javascript/weather-javascript.JPG',
-        link: 'https://imprsant-weather.netlify.app/',
+        link: 'https://weather31.netlify.app/',
         github: 'https://github.com/imprsant/weather-app'
     },
 
