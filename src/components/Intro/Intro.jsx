@@ -37,26 +37,26 @@ const Intro = () => {
             <div className="social">
 
               <div className="github">
-                <a href="https://github.com/imprsant" target='-blank' rel='norefferer'>
+                <a href="https://github.com/codingsapienss" target='-blank' rel='norefferer'>
                   <BsGithub className='icon' />
                 </a>
               </div>
 
               <div className="twitter">
-                <a href="https://twitter.com/im_prsant" target='-blank' rel='norefferer' >
+                <a href="https://twitter.com/codingsapiens" target='-blank' rel='norefferer' >
                   <BsTwitter className='icon' />
                 </a>
               </div>
 
               <div className="linkdin">
-                <a href="https://www.linkedin.com/in/imprsant/" target='-blank' rel='norefferer' >
+                <a href="https://www.linkedin.com/in/codingsapiens/" target='-blank' rel='norefferer' >
                   <BsLinkedin className='icon' />
                 </a>
               </div>
 
 
               <div className="insta">
-                <a href="https://www.instagram.com/im_prsant/" target='-blank' rel='norefferer'>
+                <a href="https://www.instagram.com/codingsapiens/" target='-blank' rel='norefferer'>
                   <AiFillInstagram className='icon' />
                 </a>
               </div>
