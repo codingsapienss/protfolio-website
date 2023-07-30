@@ -75,7 +75,7 @@ export const reactProjects = [
         title: "Crypto Pilot",
         desc: `This is a cryptocurrency project where you can get all the latest information in detail about all famous cryptocurrencies. You can read and search most recent news related to almost all important cryptocurrencies. `,
         img: '/project-images/react/crypto-pilot.JPG',
-        link: 'https://imprsant-cryptopilot.netlify.app/',
+        link: 'https://cryptopilott.netlify.app/',
         github: 'https://github.com/imprsant/crypto-pilot'
     },
 
@@ -94,7 +94,7 @@ export const reactProjects = [
         title: "Quiz App",
         desc: `Quiz Master is a quiz project made with react with more that 20 categories and 3 difficulty levels (easy, medium and hard). Play this game and test your knowledge. `,
         img: '/project-images/react/quiz-app-react.png',
-        link: 'https://imprsant-quizmaster.netlify.app/',
+        link: 'https://quizmasterr.netlify.app/',
         github: 'https://github.com/imprsant/quiz-master'
     },
 
@@ -104,7 +104,7 @@ export const reactProjects = [
         desc: `This is a simple dictionary project created with the help of react (vite).
          Here you can search any word and find the meaning, synonyms and antonyms of that word. You can also listen the correct pronounciation of that word if the audio file is available for that word.`,
         img: '/project-images/react/wordsweb-react.JPG',
-        link: "https://imprsant-words-web.netlify.app/",
+        link: "https://wordsweb.netlify.app/",
         github: 'https://github.com/imprsant/words-web'
     },
 
@@ -113,7 +113,7 @@ export const reactProjects = [
         title: "React From Validation",
         desc: `This is a simple react project created to learn form handeling and validation in react without using any library.`,
         img: '/project-images/react/form-validation-react.JPG',
-        link: "https://imprsant-reactform.netlify.app/",
+        link: "https://reactformss.netlify.app/",
         github: 'https://github.com/imprsant/react-form-validation'
     },
 
@@ -122,7 +122,7 @@ export const reactProjects = [
         title: "Todo (PWA)",
         desc: `This is a simple todo progressive web app made in react. `,
         img: '/project-images/react/react-todo.JPG',
-        link: 'https://todoapp-v1-imprsant.netlify.app/',
+        link: 'https://todoapp-v01.netlify.app/',
         github: 'https://github.com/imprsant/todo-v1'
     },
 
@@ -131,7 +131,7 @@ export const reactProjects = [
         title: "React Auto-search",
         desc: `This is a very simple and small project of auto-search in react made with the help of vite. In this project if you type any string in search-bar, a list of suggested keywords will automatically generated that contains the typed string.`,
         img: '/project-images/react/autosearch-react.JPG',
-        link: 'https://imprsant-autosearch.netlify.app/',
+        link: 'https://react-autosearch.netlify.app/',
         github: 'https://github.com/imprsant/react-search-bar'
     },
 
@@ -140,7 +140,7 @@ export const reactProjects = [
         title: "React Pagination Project",
         desc: `This is a very basic project of pagination made in react. `,
         img: '/project-images/react/pagination.JPG',
-        link: 'https://imprsant-pagination.netlify.app/',
+        link: 'https://react-paginationn.netlify.app/',
         github: 'https://github.com/imprsant/pagination-project'
     },
 ]
@@ -153,7 +153,7 @@ export const javascriptProject = [
         title: "Weather App",
         desc: `This is a simple weather app project created with the help of javascript, html and css. `,
         img: '/project-images/javascript/weather-javascript.JPG',
-        link: 'https://imprsant-weather.netlify.app/',
+        link: 'https://weather31.netlify.app/',
         github: 'https://github.com/imprsant/weather-app'
     },
     {
