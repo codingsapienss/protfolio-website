@@ -35,13 +35,17 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      border: 2px solid $mainColor;
+      border-top: 1px solid rgba(173, 216, 230, 0.753);
+      border-left: 1px solid rgba(173, 216, 230, 0.753);
+      box-shadow: 10px 10px 10px 2px rgba(0, 0, 0);
+
       border-radius: 0.4rem;
       padding: 1rem;
+      margin-bottom: 50px;
       font-size: 2rem;
       font-weight: lighter;
       @include mobile {
-        width: 90vw;
+        width: 85vw;
       }
       h1 {
         font-size: 1.8rem;
@@ -54,9 +58,13 @@
         font-size: 1.2rem;
         padding: 0.4rem 0.7rem;
         margin: 1rem 0.4rem;
-        border: 0.5px solid $mainColor;
+        // border: 0.5px solid $mainColor;
         border-radius: 0.4rem;
-        outline: 0.5px solid $mainColor;
+        // outline: 0.5px solid $mainColor;
+        outline: none;
+        &::placeholder {
+          color: rgba(173, 216, 230, 0.562);
+        }
       }
 
       input[type="submit"] {
@@ -64,7 +72,7 @@
         font-size: 1.5rem;
         // background-color: $mainColor;
         color: $mainColor;
-        border: 2px solid $mainColor;
+        border: 0.5px solid $mainColor;
         font-weight: bolder;
         &:hover {
           background-color: $mainColor;
@@ -80,7 +88,7 @@
       align-items: center;
       justify-content: center;
       width: 100vw;
-      font-size: 3rem;
+      font-size: 2rem;
 
       .icon {
         color: $mainColor;
@@ -88,7 +96,7 @@
         margin-top: 4rem;
 
         &:hover {
-          opacity: 0.5;
+          opacity: 0.2;
         }
       }
     }
