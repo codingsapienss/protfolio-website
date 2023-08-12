@@ -60,6 +60,8 @@
 
       @include mobile {
         display: flex;
+        margin: 15px 3px;
+        padding: 8px 0;
         flex-direction: column;
         &:nth-child(odd) {
           flex-direction: column;
