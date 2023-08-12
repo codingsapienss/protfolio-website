@@ -9,7 +9,7 @@
   justify-content: space-between;
 
   .contactContainer {
-    width: 78vw;
+    width: 90vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +41,7 @@
       font-size: 2rem;
       font-weight: lighter;
       @include mobile {
-        width: 77vw;
+        width: 90vw;
       }
       h1 {
         font-size: 1.8rem;
@@ -54,8 +54,9 @@
         font-size: 1.2rem;
         padding: 0.4rem 0.7rem;
         margin: 1rem 0.4rem;
-        border: 1px solid $mainColor;
+        border: 0.5px solid $mainColor;
         border-radius: 0.4rem;
+        outline: 0.5px solid $mainColor;
       }
 
       input[type="submit"] {
