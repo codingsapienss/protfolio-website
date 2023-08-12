@@ -41,12 +41,12 @@
 
       border-radius: 0.4rem;
       padding: 1rem;
+
       margin: 30px;
-      margin-bottom: 50px;
       font-size: 2rem;
       font-weight: lighter;
       @include mobile {
-        width: 85vw;
+        width: 80vw;
       }
       h1 {
         font-size: 1.8rem;
