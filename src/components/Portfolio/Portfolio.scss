@@ -49,8 +49,13 @@
     .itemContainer {
       display: flex;
       align-items: center;
-      border: 1px solid $mainColor;
+      border-top: 1px solid rgba(173, 216, 230, 0.726);
+      border-left: 1px solid hsla(195, 53%, 79%, 0.726);
+      box-shadow: 10px 10px 10px 8px rgba(0, 0, 0);
+
+      background-color: transparent;
       margin: 20px;
+      margin-bottom: 50px;
       padding: 20px;
       border-radius: 0.3rem;
 
@@ -61,6 +66,7 @@
       @include mobile {
         display: flex;
         margin: 15px 3px;
+        margin-bottom: 50px;
         padding: 8px 0;
         flex-direction: column;
         &:nth-child(odd) {
@@ -72,9 +78,9 @@
         // width: 480px;
         width: 50%;
         max-width: 80vw;
-        border-radius: 0.1rem;
-        border: 2px solid $mainColor;
-        // border-radius: 0.4rem;
+        // border-radius: 0.1rem;
+        // border: 2px solid $mainColor;
+        border-radius: 5px;
         margin: 10px 20px;
         display: flex;
         align-items: center;
