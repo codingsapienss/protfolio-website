@@ -29,7 +29,7 @@
   .container {
     // height: 200vh;
     width: 95vw;
-    max-width: 1200px;
+    max-width: 1250px;
     // display: flex;
     // flex-wrap: wrap;
     // align-items: center;
@@ -133,10 +133,13 @@
             font-size: 1rem;
           }
         }
-        p {
-          // text-align: center;
-          font-size: 1.3rem;
-          margin: 18px 0;
+        li {
+          text-align: start;
+          font-size: 1rem;
+          margin: 1px;
+          border: none;
+          cursor: auto;
+          font-weight: normal;
           @include mobile {
             display: none;
           }

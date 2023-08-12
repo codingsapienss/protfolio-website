@@ -50,8 +50,11 @@ const Portfolio = () => {
 
                 <div className="disc">
                   <h2>{i + 1}.  {project.title}</h2>
-                  <p>{project.desc}</p>
-
+                  {project.desc?.map((d, i) => {
+                    return <ul key={i}>
+                      <li> {i + 1}. {d}</li>
+                    </ul>
+                  })}
                   <div className="btn">
                     <a href={project.link} target="_blank" rel="noreferrer"><button >Live Demo</button></a>
 
@@ -59,11 +62,12 @@ const Portfolio = () => {
                       <button >Github Link</button></a>
                   </div>
                 </div>
-              </div>
+              </div >
             );
           })}
 
-        {selected === "javascript" &&
+        {
+          selected === "javascript" &&
           javascriptProject.map((project, i) => {
             return (
 
@@ -78,7 +82,11 @@ const Portfolio = () => {
 
                 <div className="disc">
                   <h2>{i + 1}.  {project.title}</h2>
-                  <p>{project.desc}</p>
+                  {project.desc?.map((d, i) => {
+                    return <ul key={i}>
+                      <li> {i + 1}. {d}</li>
+                    </ul>
+                  })}
                   <div className="btn">
                     <a href={project.link} target="_blank" rel="noreferrer"><button >Live Demo</button></a>
 
@@ -88,9 +96,11 @@ const Portfolio = () => {
                 </div>
               </div>
             );
-          })}
+          })
+        }
 
-        {selected === "featuredProject" &&
+        {
+          selected === "featuredProject" &&
           featuredProjects.map((project, i) => {
             return (
 
@@ -105,7 +115,11 @@ const Portfolio = () => {
 
                 <div className="disc">
                   <h2>{i + 1}.  {project.title}</h2>
-                  <p>{project.desc}</p>
+                  {project.desc?.map((d, i) => {
+                    return <ul key={i}>
+                      <li> {i + 1}. {d}</li>
+                    </ul>
+                  })}
                   <div className="btn">
                     <a href={project.link} target="_blank" rel="noreferrer"><button >Live Demo</button></a>
 
@@ -116,8 +130,9 @@ const Portfolio = () => {
               </div>
 
             );
-          })}
-      </div>
+          })
+        }
+      </div >
     </div >
 
   </>
