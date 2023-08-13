@@ -75,10 +75,15 @@
         // background-color: $mainColor;
         color: $mainColor;
         border: 0.5px solid $mainColor;
+        box-shadow: 2px 2px $mainColor;
         font-weight: bolder;
         &:hover {
           background-color: $mainColor;
           color: $bgColor;
+          position: relative;
+          top: 2px;
+          left: 2px;
+          box-shadow: none;
         }
       }
     }
