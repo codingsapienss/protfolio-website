@@ -170,7 +170,7 @@
             font-weight: bolder;
             padding: 0.5rem;
             margin: 0.5rem;
-            box-shadow: 3px 3px $mainColor;
+            box-shadow: 2px 2px $mainColor;
             @include mobile {
               font-size: 0.7rem;
             }
@@ -179,8 +179,8 @@
               color: $bgColor;
               // outline: 2px solid $mainColor;
               position: relative;
-              top: 4px;
-              left: 4px;
+              top: 2px;
+              left: 2px;
               box-shadow: none;
             }
 
