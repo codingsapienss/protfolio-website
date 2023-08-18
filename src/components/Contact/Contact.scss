@@ -10,12 +10,14 @@
 
   .contactContainer {
     width: 90vw;
+    max-width: 1200px;
     display: flex;
     align-items: center;
     justify-content: center;
 
     @include mobile {
       flex-direction: column;
+      width: 100vw;
     }
 
     .img {
@@ -47,7 +49,8 @@
       font-size: 2rem;
       font-weight: lighter;
       @include mobile {
-        width: 80vw;
+        width: 97vw;
+        margin-left: 25px;
       }
       h1 {
         font-size: 1.8rem;

@@ -28,7 +28,7 @@
 
   .container {
     // height: 200vh;
-    width: 90vw;
+    width: 98vw;
     max-width: 1200px;
     // display: flex;
     // flex-wrap: wrap;
@@ -66,8 +66,9 @@
 
       @include mobile {
         display: flex;
-        margin: 28px;
-        margin-bottom: 55px;
+        margin: 20px;
+        margin-left: 8px;
+        margin-bottom: 70px;
         padding: 8px 0;
         flex-direction: column;
         box-shadow: 10px 10px 10px 8px rgba(0, 0, 0);
