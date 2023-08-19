@@ -63,18 +63,10 @@
 
       &:nth-child(odd) {
         flex-direction: row-reverse;
-        &:hover {
-          transform: rotate(1deg);
-          border-top: 2px solid rgba(173, 216, 230, 0.801);
-          border-left: 2px solid hsla(195, 53%, 79%, 0.801);
-        }
+        
       }
 
-      &:hover {
-        transform: rotate(-1deg);
-        border-top: 2px solid rgba(173, 216, 230, 0.801);
-        border-left: 2px solid hsla(195, 53%, 79%, 0.801);
-      }
+     
       @include mobile {
         display: flex;
         margin: 8px;
