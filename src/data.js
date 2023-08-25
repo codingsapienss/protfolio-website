@@ -180,7 +180,7 @@ export const javascriptProject = [
     {
         id: 2,
         title: "Quiz App",
-        desc: ['This is a very simple pagination project made in react.'],
+        desc: ['This is a simple quiz project created with the help of javascript.'],
         img: '/project-images/javascript/quiz-javascript.JPG',
         link: 'https://codingsapienss.github.io/quiz-app/',
         github: 'https://github.com/codingsapienss/quiz-app'
