@@ -29,7 +29,7 @@ export const featuredProjects = [
             `Quiz Master is a quiz project made with react with more than 20 categories and 3 difficulty levels (easy, medium and hard). `,
             `Play this game and test your knowledge. `
         ],
-        img: '/project-images/react/quiz-app-react.png',
+        img: '/project-images/react/quiz-app-react.JPG',
         link: 'https://quizmasterr.netlify.app/',
         github: 'https://github.com/codingsapienss/quiz-master'
     },
@@ -108,7 +108,7 @@ export const reactProjects = [
             `Quiz Master is a quiz project made with react with more than 20 categories and 3 difficulty levels (easy, medium and hard). `,
             `Play this game and test your knowledge. `
         ],
-        img: '/project-images/react/quiz-app-react.png',
+        img: '/project-images/react/quiz-app-react.JPG',
         link: 'https://quizmasterr.netlify.app/',
         github: 'https://github.com/codingsapienss/quiz-master'
     },
