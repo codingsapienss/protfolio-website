@@ -26,7 +26,7 @@ export const featuredProjects = [
         id: 3,
         title: "Quiz Master",
         desc: [
-            `Quiz Master is a quiz project made with react with more that 20 categories and 3 difficulty levels (easy, medium and hard). `,
+            `Quiz Master is a quiz project made with react with more than 20 categories and 3 difficulty levels (easy, medium and hard). `,
             `Play this game and test your knowledge. `
         ],
         img: '/project-images/react/quiz-app-react.png',
@@ -40,7 +40,7 @@ export const featuredProjects = [
         desc: [
             `This is a simple dictionary project created with the help of react (vite).`,
             `Here you can search any word and find the meaning, synonyms and antonyms of that word. `,
-            `You can also listen the correct pronounciation of that word if the audio file is available for that word.`
+            `You can also listen the correct pronunciation  of that word if the audio file is available for that word.`
         ],
         img: '/project-images/react/wordsweb-react.JPG',
         link: "https://wordsweb.netlify.app/",
@@ -50,7 +50,7 @@ export const featuredProjects = [
     {
         id: 5,
         title: "Weather App",
-        desc: [`This is a simple weather app project created with the help of javascript, html and css. `],
+        desc: [`This is a simple weather app project created with the help of javascript, html and css.`],
         img: '/project-images/javascript/weather-javascript.JPG',
         link: 'https://weather31.netlify.app/',
         github: 'https://github.com/codingsapienss/weather-app'
@@ -105,7 +105,7 @@ export const reactProjects = [
         id: 3,
         title: "Quiz Master",
         desc: [
-            `Quiz Master is a quiz project made with react with more that 20 categories and 3 difficulty levels (easy, medium and hard). `,
+            `Quiz Master is a quiz project made with react with more than 20 categories and 3 difficulty levels (easy, medium and hard). `,
             `Play this game and test your knowledge. `
         ],
         img: '/project-images/react/quiz-app-react.png',
@@ -119,7 +119,7 @@ export const reactProjects = [
         desc: [
             `This is a simple dictionary project created with the help of react (vite).`,
             `Here you can search any word and find the meaning, synonyms and antonyms of that word. `,
-            `You can also listen the correct pronounciation of that word if the audio file is available for that word.`
+            `You can also listen the correct pronunciation of that word if the audio file is available for that word.`
         ],
         img: '/project-images/react/wordsweb-react.JPG',
         link: "https://wordsweb.netlify.app/",
@@ -129,7 +129,7 @@ export const reactProjects = [
     {
         id: 5,
         title: "React From Validation",
-        desc: [`This is a simple react project created to learn form handeling and validation in react without using any library.`],
+        desc: [`This is a simple react project created to learn form handling and validation in react without using any library.`],
         img: '/project-images/react/form-validation-react.JPG',
         link: "https://reactformss.netlify.app/",
         github: 'https://github.com/codingsapienss/react-form-validation'
@@ -180,7 +180,7 @@ export const javascriptProject = [
     {
         id: 2,
         title: "Quiz App",
-        desc: ['This is a very simple pagination project made in react.'],
+        desc: ['This is a simple quiz project created with the help of javascript.'],
         img: '/project-images/javascript/quiz-javascript.JPG',
         link: 'https://codingsapienss.github.io/quiz-app/',
         github: 'https://github.com/codingsapienss/quiz-app'
