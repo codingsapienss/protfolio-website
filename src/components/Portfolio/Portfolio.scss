@@ -63,14 +63,12 @@
 
       &:nth-child(odd) {
         flex-direction: row-reverse;
-        
       }
 
-     
       @include mobile {
         display: flex;
         margin: 8px;
-      //  margin-left: 8px;
+        //  margin-left: 8px;
         margin-bottom: 70px;
         padding: 8px 0;
         flex-direction: column;
@@ -156,7 +154,7 @@
           font-weight: normal;
           @include mobile {
             margin: 0 10px;
-            text-align : center ;
+            text-align: center;
             font-size: 0.7rem;
           }
         }

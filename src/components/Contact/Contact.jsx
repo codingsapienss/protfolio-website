@@ -25,6 +25,7 @@ const Contact = () => {
   return (
 
     <div id='contact' className='contact'>
+
       <div className="contactContainer">
 
         <div className="img">

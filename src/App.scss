@@ -13,11 +13,17 @@
   font-family: "M PLUS 1 Code", sans-serif;
   overflow-x: hidden;
   color: $mainColor;
-  background-color: $bgColor;
+  // background-color: $bgColor;
 }
 
 .app {
   height: 100vh;
+  background: radial-gradient(
+    at center bottom,
+    rgb(27, 39, 53) 0%,
+    rgb(9, 10, 16) 100%
+  );
+
   .section {
     width: 100%;
     height: calc(100vh - 70px);

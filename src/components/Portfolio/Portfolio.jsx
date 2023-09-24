@@ -17,125 +17,128 @@ const Portfolio = () => {
 
 
 
-  return (<>
-    <div id="portfolio" className="portfolio">
-      <h1>Projects</h1>
-      <ul>
-        {list.map((item) => {
-          return (
-            <PortfolioList
-              active={selected === item.id}
-              setSelected={setSelected}
-              key={item.id}
-              title={item.title}
-              id={item.id}
-            />
-          );
-        })}
-      </ul>
+  return (
+    <>
 
-      <div className="container">
-        {selected === "react" &&
-          reactProjects.map((project, i) => {
+      <div id="portfolio" className="portfolio">
+
+        <h1>Projects</h1>
+        <ul>
+          {list.map((item) => {
             return (
-
-              <div key={project.id} className="itemContainer">
-
-                <div className="item">
-                  <a href={project.link} target="_blank" rel="noreferrer">
-                    <img src={project.img} alt="project-thumbnail" />
-                  </a>
-                  <h3>  {project.title} </h3>
-                </div>
-
-                <div className="disc">
-                  <h2>{i + 1}.  {project.title}</h2>
-                  {project.desc?.map((d, i) => {
-                    return <ul key={i}>
-                      <li> {i + 1}. {d}</li>
-                    </ul>
-                  })}
-                  <div className="btn">
-                    <a href={project.link} target="_blank" rel="noreferrer"><button >Live Demo</button></a>
-
-                    <a href={project.github} target="_blank" rel="noreferrer" >
-                      <button >Github Link</button></a>
-                  </div>
-                </div>
-              </div >
+              <PortfolioList
+                active={selected === item.id}
+                setSelected={setSelected}
+                key={item.id}
+                title={item.title}
+                id={item.id}
+              />
             );
           })}
+        </ul>
 
-        {
-          selected === "javascript" &&
-          javascriptProject.map((project, i) => {
-            return (
+        <div className="container">
+          {selected === "react" &&
+            reactProjects.map((project, i) => {
+              return (
 
-              <div key={project.id} className="itemContainer">
+                <div key={project.id} className="itemContainer">
 
-                <div className="item">
-                  <a href={project.link} target="_blank" rel="noreferrer">
-                    <img src={project.img} alt="project-thumbnail" />
-                  </a>
-                  <h3> {project.title} </h3>
-                </div>
+                  <div className="item">
+                    <a href={project.link} target="_blank" rel="noreferrer">
+                      <img src={project.img} alt="project-thumbnail" />
+                    </a>
+                    <h3>  {project.title} </h3>
+                  </div>
 
-                <div className="disc">
-                  <h2>{i + 1}.  {project.title}</h2>
-                  {project.desc?.map((d, i) => {
-                    return <ul key={i}>
-                      <li> {i + 1}. {d}</li>
-                    </ul>
-                  })}
-                  <div className="btn">
-                    <a href={project.link} target="_blank" rel="noreferrer"><button >Live Demo</button></a>
+                  <div className="disc">
+                    <h2>{i + 1}.  {project.title}</h2>
+                    {project.desc?.map((d, i) => {
+                      return <ul key={i}>
+                        <li> {i + 1}. {d}</li>
+                      </ul>
+                    })}
+                    <div className="btn">
+                      <a href={project.link} target="_blank" rel="noreferrer"><button >Live Demo</button></a>
 
-                    <a href={project.github} target="_blank" rel="noreferrer" >
-                      <button >Github Link</button></a>
+                      <a href={project.github} target="_blank" rel="noreferrer" >
+                        <button >Github Link</button></a>
+                    </div>
+                  </div>
+                </div >
+              );
+            })}
+
+          {
+            selected === "javascript" &&
+            javascriptProject.map((project, i) => {
+              return (
+
+                <div key={project.id} className="itemContainer">
+
+                  <div className="item">
+                    <a href={project.link} target="_blank" rel="noreferrer">
+                      <img src={project.img} alt="project-thumbnail" />
+                    </a>
+                    <h3> {project.title} </h3>
+                  </div>
+
+                  <div className="disc">
+                    <h2>{i + 1}.  {project.title}</h2>
+                    {project.desc?.map((d, i) => {
+                      return <ul key={i}>
+                        <li> {i + 1}. {d}</li>
+                      </ul>
+                    })}
+                    <div className="btn">
+                      <a href={project.link} target="_blank" rel="noreferrer"><button >Live Demo</button></a>
+
+                      <a href={project.github} target="_blank" rel="noreferrer" >
+                        <button >Github Link</button></a>
+                    </div>
                   </div>
                 </div>
-              </div>
-            );
-          })
-        }
+              );
+            })
+          }
 
-        {
-          selected === "featuredProject" &&
-          featuredProjects.map((project, i) => {
-            return (
+          {
+            selected === "featuredProject" &&
+            featuredProjects.map((project, i) => {
+              return (
 
-              <div key={project.id} className="itemContainer">
+                <div key={project.id} className="itemContainer">
 
-                <div className="item">
-                  <a href={project.link} target="_blank" rel="noreferrer">
-                    <img src={project.img} alt="project-thumbnail" />
-                  </a>
-                  <h3> {project.title} </h3>
-                </div>
+                  <div className="item">
+                    <a href={project.link} target="_blank" rel="noreferrer">
+                      <img src={project.img} alt="project-thumbnail" />
+                    </a>
+                    <h3> {project.title} </h3>
+                  </div>
 
-                <div className="disc">
-                  <h2>{i + 1}.  {project.title}</h2>
-                  {project.desc?.map((d, i) => {
-                    return <ul key={i}>
-                      <li> {i + 1}. {d}</li>
-                    </ul>
-                  })}
-                  <div className="btn">
-                    <a href={project.link} target="_blank" rel="noreferrer"><button >Live Demo</button></a>
+                  <div className="disc">
+                    <h2>{i + 1}.  {project.title}</h2>
+                    {project.desc?.map((d, i) => {
+                      return <ul key={i}>
+                        <li> {i + 1}. {d}</li>
+                      </ul>
+                    })}
+                    <div className="btn">
+                      <a href={project.link} target="_blank" rel="noreferrer"><button >Live Demo</button></a>
 
-                    <a href={project.github} target="_blank" rel="noreferrer"  >
-                      <button >Github Link</button></a>
+                      <a href={project.github} target="_blank" rel="noreferrer"  >
+                        <button >Github Link</button></a>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-            );
-          })
-        }
+              );
+            })
+          }
+        </div >
       </div >
-    </div >
 
-  </>
+    </>
   );
 };
 
