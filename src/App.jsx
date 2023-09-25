@@ -3,13 +3,11 @@ import Topbar from './components/Topbar/Topbar'
 import Intro from './components/Intro/Intro'
 import Portfolio from './components/Portfolio/Portfolio'
 import Contact from './components/Contact/Contact'
-import Star from './components/Star/Star'
 
 const App = () => {
   return (
 
     <>
-      <Star />
       <div className='app'>
         <Topbar />
         <div className="section">
