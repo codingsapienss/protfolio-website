@@ -28,6 +28,7 @@ const Intro = () => {
 
           <div className="imgContainer">
             <img src='\prashant.png' alt="Prashant" />
+
           </div>
           <div className="details">
             <h2>Hii There, I am </h2>

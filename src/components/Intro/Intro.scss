@@ -31,8 +31,9 @@
       }
       img {
         // max-width: 70%;
-        border-radius: 48%;
-        border-bottom: 5px solid lightblue;
+        z-index: 3;
+        // border-radius: 48%;
+        border-bottom: 2px solid lightblue;
         // background-color: rgb(9, 10, 15);
       }
     }

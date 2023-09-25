@@ -3,20 +3,32 @@ import Topbar from './components/Topbar/Topbar'
 import Intro from './components/Intro/Intro'
 import Portfolio from './components/Portfolio/Portfolio'
 import Contact from './components/Contact/Contact'
+import Stars from './components/Stars/Stars'
 
 const App = () => {
   return (
-    <div className='app'>
-      <Topbar />
-      <div className="section">
-        <Intro />
-        <div className="other">
-          <Portfolio />
 
-          <Contact className='contact' />
+    <>
+      <Stars />
+
+
+      <div className='app'>
+
+        <Topbar />
+
+        <div className="section">
+          <Intro />
+          <div className="other">
+            <Portfolio />
+
+            <Contact className='contact' />
+          </div>
         </div>
+
+
       </div>
-    </div>
+
+    </>
   )
 }
 
