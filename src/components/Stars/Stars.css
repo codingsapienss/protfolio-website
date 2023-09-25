@@ -9,13 +9,13 @@
 
 .star {
   position: absolute;
-  width: 4px;
-  height: 4px;
+  /* width: 4px;
+  height: 4px; */
   filter: blur(1px);
-  background-color: white;
-  border-radius: 50%;
+  /* background-color: white; */
+  /* border-radius: 50%; */
   pointer-events: none;
-  animation: animate 60s linear infinite;
+  animation: animate 50s linear infinite;
 }
 
 @keyframes animate {

@@ -30,9 +30,8 @@ const Stars = () => {
                     style={{
                         left: star.left,
                         bottom: star.bottom,
-
                     }}
-                ></div>
+                > * </div>
             ))}
         </div>
     );
