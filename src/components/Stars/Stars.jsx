@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import './Stars.css';
 
 const Stars = () => {
-    const [stars, setStars] = useState([{left : 80px, bottom: 150px}]);
+    const [stars, setStars] = useState([{ left: '80px', bottom: '150px' }]);
 
     useEffect(() => {
 
