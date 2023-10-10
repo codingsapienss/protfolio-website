@@ -18,7 +18,7 @@
     }
 
     .imgContainer {
-      width: 50vw;
+      width: 45vw;
       display: flex;
       align-items: flex-start;
       justify-content: flex-end;
@@ -29,19 +29,19 @@
         bottom: 44vh;
       }
       img {
-        margin: auto;
         z-index: 3;
         height: 450px;
         width: fit-content;
         border-bottom: 2px solid rgb(0, 0, 0);
         @include mobile {
           height: 300px;
+          margin: auto;
         }
       }
     }
 
     .details {
-      width: 50vw;
+      width: 55vw;
       padding-left: 50px;
       display: flex;
       flex-direction: column;
