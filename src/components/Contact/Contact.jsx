@@ -71,9 +71,7 @@ const Contact = () => {
               <AiFillInstagram className='icon' />
             </a>
           </div>
-          {/* <div className="gmail">
-          <a href="contactprsant@gmail.com" target='-blank'> <img src="" alt="gmail" /></a>
-          </div> */}
+
         </div>
 
 

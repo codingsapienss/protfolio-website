@@ -262,3 +262,70 @@ export const javascriptProject = [
     },
 
 ]
+
+
+export const projects = [
+    {
+        id: 1,
+        title: "Crypto Pilot",
+        desc: [
+            `This is a cryptocurrency project where you can get all the latest information in detail about all famous cryptocurrencies.`,
+            ` You can read and search most recent news related to almost all important cryptocurrencies. `
+        ],
+        img: '/project-images/react/crypto-pilot.JPG',
+        link: 'https://cryptopilott.netlify.app/',
+        github: 'https://github.com/codingsapienss/crypto-pilot'
+    },
+
+    {
+        id: 2,
+        title: "Movies Master",
+        desc: [`Movies-Master is a react project for fetching all the details about movies and webseries.`,
+            `In this project you can fetch trending Movies, Movies list, TV series list and also you can search any movie or series.`],
+        img: '/project-images/react/movies-master.JPG',
+        link: 'https://moviesmaster.netlify.app/',
+        github: 'https://github.com/codingsapienss/movie-master'
+    },
+
+    {
+        id: 3,
+        title: "Quiz Master",
+        desc: [
+            `Quiz Master is a quiz project made with react with more than 20 categories and 3 difficulty levels (easy, medium and hard). `,
+            `Play this game and test your knowledge. `
+        ],
+        img: '/project-images/react/quiz-app-react.JPG',
+        link: 'https://quizmasterr.netlify.app/',
+        github: 'https://github.com/codingsapienss/quiz-master'
+    },
+
+    {
+        id: 4,
+        title: "Words Web",
+        desc: [
+            `This is a simple dictionary project created with the help of react (vite).`,
+            `Here you can search any word and find the meaning, synonyms and antonyms of that word. `,
+            `You can also listen the correct pronunciation  of that word if the audio file is available for that word.`
+        ],
+        img: '/project-images/react/wordsweb-react.JPG',
+        link: "https://wordsweb.netlify.app/",
+        github: 'https://github.com/codingsapienss/words-web'
+    },
+
+    {
+        id: 5,
+        title: "Weather App",
+        desc: [`This is a simple weather app project created with the help of javascript, html and css.`],
+        img: '/project-images/javascript/weather-javascript.JPG',
+        link: 'https://weather31.netlify.app/',
+        github: 'https://github.com/codingsapienss/weather-app'
+    },
+    {
+        id: 6,
+        title: "Tic Tak Toe Game",
+        desc: ['This is a simple tic tak toe game made in pure javascript. I hope you will love it.'],
+        img: '/project-images/javascript/tic tak toe.JPG',
+        link: 'https://codingsapienss.github.io/Tic-tak-toe/',
+        github: 'https://github.com/codingsapienss/Tic-tak-toe'
+    },
+]

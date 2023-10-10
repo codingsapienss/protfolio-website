@@ -4,12 +4,6 @@ import { BsChevronDoubleDown, BsFillPersonFill, BsGithub, BsLinkedin, BsTwitter 
 import { init } from 'ityped'
 import { GrMail } from 'react-icons/gr'
 import { AiFillInstagram } from 'react-icons/ai'
-// import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoRedux } from 'react-icons/bi';
-// import { FaSass } from 'react-icons/fa';
-// import { SiMui } from 'react-icons/si';
-
-
-
 
 const Intro = () => {
 
@@ -25,9 +19,8 @@ const Intro = () => {
       <div id='intro' className='intro'>
 
         <div className="mainContainer">
-
           <div className="imgContainer">
-            <img src='\prashant.png' alt="Prashant" />
+            <img src='\profile-img.png' alt="Prashant" />
 
           </div>
           <div className="details">
@@ -78,23 +71,6 @@ const Intro = () => {
 
               </div>
             </div>
-
-            {/* <div className="techStack">
-            <span> Tech Stack : </span>
-
-            <span className='logoContainer'>
-              <BiLogoHtml5 className='logo' />
-              <BiLogoCss3 className='logo' />
-              <FaSass className='logo' />
-              <BsBootstrapFill className='logo' />
-              <BiLogoJavascript className='logo' />
-              <BiLogoReact className='logo' />
-              <SiMui className='logo' />
-              <BiLogoRedux className='logo' />
-
-            </span>
-
-          </div> */}
 
             <a className='next' href="#portfolio">
               <BsChevronDoubleDown />

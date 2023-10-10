@@ -9,7 +9,6 @@
   font-family: "M PLUS 1 Code", sans-serif;
   overflow-x: hidden;
   color: $mainColor;
-  // background-color: $bgColor;
 
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
@@ -21,12 +20,7 @@
 
 .app {
   height: 100vh;
-  background: radial-gradient(
-    at center,
-    rgb(27, 39, 53) 0%,
-    rgb(9, 10, 16) 100%
-  );
-
+  background-color: $bgColor;
   .section {
     width: 100%;
     height: calc(100vh - 70px);
@@ -34,12 +28,6 @@
     top: 70px;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
-    // -ms-overflow-style: none; /* IE and Edge */
-    // scrollbar-width: none; /* Firefox */
-    // &::-webkit-scrollbar {
-    //   /* Chroome */
-    //   display: none;
-    // }
 
     > * {
       width: 100vw;

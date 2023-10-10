@@ -18,11 +18,10 @@
     }
 
     .imgContainer {
-      width: 35vw;
+      width: 50vw;
       display: flex;
       align-items: flex-start;
-      justify-content: center;
-      float: right;
+      justify-content: flex-end;
 
       @include mobile {
         width: 70vw;
@@ -30,12 +29,14 @@
         bottom: 44vh;
       }
       img {
-        // max-width: 70%;
+        margin: auto;
         z-index: 3;
-        // border-radius: 48%;
-        border-bottom: 2px solid lightblue;
-
-        // background-color: rgb(9, 10, 15);
+        height: 450px;
+        width: fit-content;
+        border-bottom: 2px solid rgb(0, 0, 0);
+        @include mobile {
+          height: 300px;
+        }
       }
     }
 
@@ -71,21 +72,6 @@
           bottom: 40vh;
         }
       }
-      // .techStack {
-      //   display: flex;
-      //   align-items: center;
-      //   border: 1px solid $mainColor;
-      //   span {
-      //     font-size: 2rem;
-      //     @include mobile {
-      //       font-size: 18px;
-      //     }
-      //     .logo {
-      //       margin: auto 0.6rem;
-      //       font-size: 2rem;
-      //     }
-      //   }
-      // }
 
       h3 {
         font-size: 30px;

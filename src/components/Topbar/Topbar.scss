@@ -21,14 +21,13 @@
     font-size: 1rem;
     font-weight: bolder;
     border: 1px solid $mainColor;
-    box-shadow: 2px 2px;
+    box-shadow: 3px 3px;
     padding: 0.4rem;
-    border-radius: 0.2rem;
 
     &:hover {
       position: relative;
-      top: 2px;
-      left: 2px;
+      top: 3px;
+      left: 3px;
       box-shadow: 0 0;
 
       background-color: $mainColor;
