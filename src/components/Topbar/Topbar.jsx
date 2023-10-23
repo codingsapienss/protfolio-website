@@ -6,7 +6,7 @@ const topbar = () => {
       <a href="#intro" className='logo'>Coding Sapiens
       </a>
 
-      <a target='_blank' rel="noreferrer" id='resume' href="https://drive.google.com/drive/folders/1ugVJhnHYaaXm6eUygU_13ZSUsbSQR-5k" > Resume
+      <a target='_blank' rel="noreferrer" id='resume' href="https://drive.google.com/file/d/16y89aYIi8mpdt0fvIRkd7G414jwPTh-P/view?usp=share_link" > Resume
       </a>
     </div>
   )
