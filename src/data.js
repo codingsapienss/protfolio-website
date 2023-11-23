@@ -269,8 +269,8 @@ export const projects = [
         id: 1,
         title: "Crypto Pilot",
         desc: [
-            `This is a cryptocurrency project where you can get all the latest information in detail about all famous cryptocurrencies.`,
-            ` You can read and search most recent news related to almost all important cryptocurrencies. `
+            `This is a cryptocurrency project where you can find detailed information about all popular cryptocurrencies`,
+            ` Explore and search for the latest news related to almost all major cryptocurrencies. `
         ],
         img: '/project-images/react/crypto-pilot.JPG',
         link: 'https://cryptopilott.netlify.app/',
@@ -280,8 +280,8 @@ export const projects = [
     {
         id: 2,
         title: "Movies Master",
-        desc: [`Movies-Master is a react project for fetching all the details about movies and webseries.`,
-            `In this project you can fetch trending Movies, Movies list, TV series list and also you can search any movie or series.`],
+        desc: [` Movies-Master is a React project focused on retrieving important details about movies and web series.`,
+            `You can easily search for any movie or TV series and access all the crucial information.`],
         img: '/project-images/react/movies-master.JPG',
         link: 'https://moviesmaster.netlify.app/',
         github: 'https://github.com/codingsapienss/movie-master'
@@ -291,8 +291,8 @@ export const projects = [
         id: 3,
         title: "Quiz Master",
         desc: [
-            `Quiz Master is a quiz project made with react with more than 20 categories and 3 difficulty levels (easy, medium and hard). `,
-            `Play this game and test your knowledge. `
+            `Quiz Master is a React-based quiz project featuring over 20 categories and three difficulty levels (easy, medium, and hard). `,
+            `Put your knowledge to the test by playing this game. I hope you'll enjoy it! `
         ],
         img: '/project-images/react/quiz-app-react.JPG',
         link: 'https://quizmasterr.netlify.app/',
@@ -303,9 +303,9 @@ export const projects = [
         id: 4,
         title: "Words Web",
         desc: [
-            `This is a simple dictionary project created with the help of react (vite).`,
-            `Here you can search any word and find the meaning, synonyms and antonyms of that word. `,
-            `You can also listen the correct pronunciation  of that word if the audio file is available for that word.`
+            `A straightforward dictionary project built with React (Vite).`,
+            `Allows you to search for any word and discover its meaning, synonyms, and antonyms.`,
+            `Provides the option to listen to the correct pronunciation of the word if an audio file is available.`
         ],
         img: '/project-images/react/wordsweb-react.JPG',
         link: "https://wordsweb.netlify.app/",
@@ -315,7 +315,7 @@ export const projects = [
     {
         id: 5,
         title: "Weather App",
-        desc: [`This is a simple weather app project created with the help of javascript, html and css.`],
+        desc: [`A simple weather app project built with JavaScript, HTML, and CSS.`],
         img: '/project-images/javascript/weather-javascript.JPG',
         link: 'https://weather31.netlify.app/',
         github: 'https://github.com/codingsapienss/weather-app'
@@ -323,7 +323,7 @@ export const projects = [
     {
         id: 6,
         title: "Tic Tak Toe Game",
-        desc: ['This is a simple tic tak toe game made in pure javascript. I hope you will love it.'],
+        desc: ['A simple tic-tac-toe game created using vanilla JavaScript.'],
         img: '/project-images/javascript/tic tak toe.JPG',
         link: 'https://codingsapienss.github.io/Tic-tak-toe/',
         github: 'https://github.com/codingsapienss/Tic-tak-toe'
