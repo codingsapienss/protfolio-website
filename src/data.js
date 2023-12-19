@@ -269,8 +269,7 @@ export const projects = [
         id: 1,
         title: "Crypto Pilot",
         desc: [
-            `This is a cryptocurrency project where you can find detailed information about all popular cryptocurrencies`,
-            ` Explore and search for the latest news related to almost all major cryptocurrencies. `
+            `This is a cryptocurrency project where you can find detailed information about all popular cryptocurrencies`
         ],
         img: '/project-images/react/crypto-pilot.JPG',
         link: 'https://cryptopilott.netlify.app/',
