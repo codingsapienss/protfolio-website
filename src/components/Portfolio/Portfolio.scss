@@ -35,8 +35,8 @@
       display: flex;
       align-items: center;
       border: 2px solid $mainColor;
-      box-shadow: 10px 10px rgb(0, 0, 0);
-      background-color: transparent;
+      box-shadow: 10px 10px $mainColor;
+      background-color: $singelItemBgc;
       margin: 20px;
       margin-bottom: 50px;
       padding: 20px;

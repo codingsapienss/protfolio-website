@@ -7,6 +7,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+ 
 
   .contactContainer {
     width: 90vw;
@@ -14,6 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+ 
 
     @include mobile {
       flex-direction: column;
@@ -41,7 +43,7 @@
       border: 2px solid $mainColor;
       box-shadow: 10px 10px $mainColor;
       padding: 1rem;
-
+      background-color: $singelItemBgc;
       margin: 30px;
       font-size: 2rem;
       font-weight: lighter;

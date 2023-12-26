@@ -1,6 +1,11 @@
-// $mainColor: lightBlue;
+
 $mainColor: rgb(0, 0, 0);
 $bgColor: #fcf6f4;
+$singelItemBgc : #f9eaeaaa;
+
+// $mainColor: #fcf6f4;
+// $bgColor:  rgb(0, 0, 0);
+
 $width: 768px;
 
 @mixin mobile {

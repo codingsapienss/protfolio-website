@@ -6,7 +6,6 @@ import "./Portfolio.scss";
 // import { featuredProjects } from "../../data.js";
 import { projects } from "../../data.js";
 
-
 const Portfolio = () => {
   // const [selected, setSelected] = useState("featuredProject");
 
@@ -16,13 +15,9 @@ const Portfolio = () => {
   //   { id: "javascript", title: "Javascript " },
   // ];
 
-
-
   return (
     <>
-
       <div id="portfolio" className="portfolio">
-
         <h1>Projects</h1>
         {/* <ul>
           {list.map((item) => {
@@ -137,43 +132,45 @@ const Portfolio = () => {
             })
           } */}
 
-          {
-
-            projects.map((project, i) => {
-              return (
-
-                <div key={project.id} className="itemContainer">
-
-                  <div className="item">
-                    <a href={project.link} target="_blank" rel="noreferrer">
-                      <img src={project.img} alt="project-thumbnail" />
-                    </a>
-                    <h3> {project.title} </h3>
-                  </div>
-
-                  <div className="disc">
-                    <h2>{i + 1}.  {project.title}</h2>
-                    {project.desc?.map((d, i) => {
-                      return <ul key={i}>
-                        <li> {i + 1}. {d}</li>
-                      </ul>
-                    })}
-                    <div className="btn">
-                      <a href={project.link} target="_blank" rel="noreferrer"><button >Live Demo</button></a>
-
-                      <a href={project.github} target="_blank" rel="noreferrer"  >
-                        <button >Github Link</button></a>
-                    </div>
-                  </div>
+          {projects.map((project, i) => {
+            return (
+              <div key={project.id} className="itemContainer">
+                <div className="item">
+                  <a href={project.link} target="_blank" rel="noreferrer">
+                    <img src={project.img} alt="project-thumbnail" />
+                  </a>
+                  <h3> {project.title} </h3>
                 </div>
 
-              );
-            })
-          }
+                <div className="disc">
+                  <h2>
+                    {i + 1}. {project.title}
+                  </h2>
+                  {project.desc?.map((d, i) => {
+                    return (
+                      <ul key={i}>
+                        <li>
+                          {" "}
+                          {i + 1}. {d}
+                        </li>
+                      </ul>
+                    );
+                  })}
+                  <div className="btn">
+                    <a href={project.link} target="_blank" rel="noreferrer">
+                      <button>Live Demo</button>
+                    </a>
 
-        </div >
-      </div >
-
+                    <a href={project.github} target="_blank" rel="noreferrer">
+                      <button>Github Link</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
     </>
   );
 };
