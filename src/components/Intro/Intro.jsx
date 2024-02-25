@@ -17,9 +17,9 @@ const Intro = () => {
   useEffect(() => {
     init(textRef.current, {
       showCursor: true,
-      backDelay: 2000,
+      backDelay: 2500,
       strings: [
-        "Front-end Developer @makeAr.ai",
+        "Frontend Developer @makeAr.ai",
         "Javascript + React Developer",
         "Coding Sapiens",
         "Writer",
