@@ -19,7 +19,7 @@ const Intro = () => {
       showCursor: true,
       backDelay: 2000,
       strings: [
-        "Front-end Developer",
+        "Front-end Developer @makeAr.ai",
         "Javascript + React Developer",
         "Coding Sapiens",
         "Writer",
