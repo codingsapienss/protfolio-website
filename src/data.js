@@ -269,7 +269,7 @@ export const projects = [
     id: 0,
     title: "Tower Stack Game",
     desc: [
-      `A simple 3D game built with Three.js and JavaScript where you stack blocks, but failing to overlap them results in failure.`,
+      `A simple 3D game built with THREE.js and Javascript where you stack blocks, but failing to overlap them results in failure.`,
     ],
     img: "/project-images/react/tower-stack.png",
     link: "https://tower-stack.netlify.app/",
