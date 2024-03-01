@@ -265,66 +265,81 @@ export const javascriptProject = [
 
 
 export const projects = [
-    {
-        id: 1,
-        title: "Crypto Pilot",
-        desc: [
-            `This is a cryptocurrency project where you can find detailed information about all popular cryptocurrencies`
-        ],
-        img: '/project-images/react/crypto-pilot.JPG',
-        link: 'https://cryptopilott.netlify.app/',
-        github: 'https://github.com/codingsapienss/crypto-pilot'
-    },
+  {
+    id: 0,
+    title: "Tower Stack Game",
+    desc: [
+      `A simple 3D game built with Three.js and JavaScript where you stack blocks, but failing to overlap them results in failure.`,
+    ],
+    img: "/project-images/react/tower-stack.png",
+    link: "https://tower-stack.netlify.app/",
+    github: "https://github.com/codingsapienss/Tower-Stack-Game",
+  },
 
-    {
-        id: 2,
-        title: "Movies Master",
-        desc: [` Movies-Master is a React project focused on retrieving important details about movies and web series.`,
-            `You can easily search for any movie or TV series and access all the crucial information.`],
-        img: '/project-images/react/movies-master.JPG',
-        link: 'https://moviesmaster.netlify.app/',
-        github: 'https://github.com/codingsapienss/movie-master'
-    },
+  {
+    id: 1,
+    title: "Crypto Pilot",
+    desc: [
+      `This is a cryptocurrency project where you can find detailed information about all popular cryptocurrencies`,
+    ],
+    img: "/project-images/react/crypto-pilot.JPG",
+    link: "https://cryptopilott.netlify.app/",
+    github: "https://github.com/codingsapienss/crypto-pilot",
+  },
 
-    {
-        id: 3,
-        title: "Quiz Master",
-        desc: [
-            `Quiz Master is a React-based quiz project featuring over 20 categories and three difficulty levels (easy, medium, and hard). `,
-            `Put your knowledge to the test by playing this game. I hope you'll enjoy it! `
-        ],
-        img: '/project-images/react/quiz-app-react.JPG',
-        link: 'https://quizmasterr.netlify.app/',
-        github: 'https://github.com/codingsapienss/quiz-master'
-    },
+  {
+    id: 2,
+    title: "Movies Master",
+    desc: [
+      ` Movies-Master is a React project focused on retrieving important details about movies and web series.`,
+      `You can easily search for any movie or TV series and access all the crucial information.`,
+    ],
+    img: "/project-images/react/movies-master.JPG",
+    link: "https://moviesmaster.netlify.app/",
+    github: "https://github.com/codingsapienss/movie-master",
+  },
 
-    {
-        id: 4,
-        title: "Words Web",
-        desc: [
-            `A straightforward dictionary project built with React (Vite).`,
-            `Allows you to search for any word and discover its meaning, synonyms, and antonyms.`,
-            `Provides the option to listen to the correct pronunciation of the word if an audio file is available.`
-        ],
-        img: '/project-images/react/wordsweb-react.JPG',
-        link: "https://wordsweb.netlify.app/",
-        github: 'https://github.com/codingsapienss/words-web'
-    },
+  {
+    id: 3,
+    title: "Quiz Master",
+    desc: [
+      `Quiz Master is a React-based quiz project featuring over 20 categories and three difficulty levels (easy, medium, and hard). `,
+      `Put your knowledge to the test by playing this game. I hope you'll enjoy it! `,
+    ],
+    img: "/project-images/react/quiz-app-react.JPG",
+    link: "https://quizmasterr.netlify.app/",
+    github: "https://github.com/codingsapienss/quiz-master",
+  },
 
-    {
-        id: 5,
-        title: "Weather App",
-        desc: [`A simple weather app project built with JavaScript, HTML, and CSS.`],
-        img: '/project-images/javascript/weather-javascript.JPG',
-        link: 'https://weather31.netlify.app/',
-        github: 'https://github.com/codingsapienss/weather-app'
-    },
-    {
-        id: 6,
-        title: "Tic Tak Toe Game",
-        desc: ['A simple tic-tac-toe game created using vanilla JavaScript.'],
-        img: '/project-images/javascript/tic tak toe.JPG',
-        link: 'https://codingsapienss.github.io/Tic-tak-toe/',
-        github: 'https://github.com/codingsapienss/Tic-tak-toe'
-    },
-]
+  {
+    id: 4,
+    title: "Words Web",
+    desc: [
+      `A simple dictionary project built with React.`,
+      `Allows you to search for any word and discover its meaning, synonyms, and antonyms.`,
+      `Provides the option to listen to the correct pronunciation of the word if an audio file is available.`,
+    ],
+    img: "/project-images/react/wordsweb-react.JPG",
+    link: "https://wordsweb.netlify.app/",
+    github: "https://github.com/codingsapienss/words-web",
+  },
+
+  {
+    id: 5,
+    title: "Weather App",
+    desc: [
+      `A simple weather app project built with JavaScript, HTML, and CSS.`,
+    ],
+    img: "/project-images/javascript/weather-javascript.JPG",
+    link: "https://weather31.netlify.app/",
+    github: "https://github.com/codingsapienss/weather-app",
+  },
+  {
+    id: 6,
+    title: "Tic Tak Toe Game",
+    desc: ["A simple tic-tac-toe game created using vanilla JavaScript."],
+    img: "/project-images/javascript/tic tak toe.JPG",
+    link: "https://codingsapienss.github.io/Tic-tak-toe/",
+    github: "https://github.com/codingsapienss/Tic-tak-toe",
+  },
+];
