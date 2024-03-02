@@ -122,13 +122,13 @@
         }
         li {
           text-align: start;
-          font-size: 1.2rem;
-          margin: 7px;
+          font-size: 1.1rem;
+          margin: 1px;
           border: none;
           cursor: auto;
           font-weight: normal;
           @include mobile {
-            margin: 5px 10px;
+            margin: 0 10px;
             text-align: center;
             font-size: 0.7rem;
           }
